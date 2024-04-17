@@ -1,0 +1,315 @@
+#container {
+  width: 100%;
+}
+
+.new_login_bg_wrap {
+  background: url(../assets/login_bg.jpg) center top no-repeat fixed #0a0807;
+  background-size: cover;
+  -webkit-background-size: cover;
+  width: 100%;
+  height: 709.38px;
+}
+
+.find_mem_wrap {
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 70px 0 50px;
+}
+
+.new_login_ttl {
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.renew_joinform_v2 {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+  max-width: 570px;
+  margin: 0 auto 30px;
+  position: relative;
+}
+
+.find_form_txt {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  color: #777;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding: 30px 20px 30px;
+}
+
+.t_006633 {
+  color: #006633 !important;
+}
+
+.bd_none {
+  border: 0 !important;
+}
+
+.renew_input_box {
+  background: #fff;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.limit_txt {
+    /* color: #444; */
+    display: none;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.limit_txt {
+    /* color: #444; */
+    display: none;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.renew_input_box input {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    /* margin-top: 10px; */
+    max-width: 530px;
+    /* outline: none; */
+    padding: 15px;
+    width: 100%;
+}
+
+.limit_txt {
+    /* color: #444; */
+    display: none;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.checkWrap {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input.mem2[type=checkbox]:not(old) {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: 0 none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.renew_input_box input {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    /* margin-top: 10px; */
+    max-width: 530px;
+    /* outline: none; */
+    padding: 15px;
+    width: 100%;
+}
+
+input.mem2[type=checkbox]:not(old) + label {
+    position: relative;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 35px;
+    background: #fff url(//image.istarbucks.co.kr/common/img/util/mem/mem_check_off.png) 0 0 no-repeat;
+    font-size: 16px;
+    color: #3f4141;
+    cursor: pointer;
+    vertical-align: top;
+    background-size: 26px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.renew_input_box .btn_mem_login {
+    margin: 0;
+}
+
+.btn_mem_login {
+    background: #006633;
+    border-radius: 3px;
+    margin-top: 25px;
+    text-align: center;
+    margin: 0 20px;
+    max-width: 570px;
+}
+
+.btn_mem_login a {
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    line-height: 65px;
+}
+
+.input_warn_text {
+    color: #ed1c24;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+.login_btn_wrap {
+    background: #fff;
+    box-sizing: border-box;
+    max-width: 570px;
+}
+
+.login_btn_wrap ul {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.login_btn_wrap ul li {
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    vertical-align: top;
+    width: 33.3%;
+}
+
+.login_btn_wrap ul li a {
+    color: #666;
+    display: block;
+    font-size: 16px;
+    height: 100%;
+    line-height: 54px;
+    width: 100%;
+}
+
+.login_btn_wrap ul li.last {
+    float: right;
+}
+
+
+
+
+
+
+
+
+.mb10 {
+    margin-bottom: 10px;
+  }
+
+input {
+  vertical-align: middle;
+  font-family: "nbg", "맑은 고딕", HelveticaNeue, DroidSans, Sans-serif,
+    Helvetica;
+}
+
+.hid {
+  position: absolute;
+  left: -9999px;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+strong {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
