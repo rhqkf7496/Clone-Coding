@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Header.css';
 
-function Header({ onSignIn }) {
+function Header({ onSignIn, onCustomer, onFindStore }) {
     return (
         <div id='mstopWrap'>
             <div id='gnb'>
@@ -15,8 +15,8 @@ function Header({ onSignIn }) {
                                 <li class="util_nav01_sign_out" ><a href="javascript:void(0);">Sign out</a></li>
                                 <li class="util_nav01_sign_in"><a href="#" onClick={onSignIn}>Sign In</a></li>
                                 <li class="util_nav02"><a href="javascript:void(0);" required="login" data-href="/my/index.do">My Starbucks</a></li>
-                                <li class="util_nav03"><a href="/util/index.do">Customer Service &amp; Ideas</a></li>
-                                <li class="util_nav04"><a href="/store/store_map.do">Find a Store</a></li>
+                                <li class="util_nav03"><a href="#" onClick={onCustomer}>Customer Service &amp; Ideas</a></li>
+                                <li class="util_nav04"><a href="#" onClick={onFindStore}>Find a Store</a></li>
                             </ul>
                         </nav>
                         <p class="btn_search">
@@ -30,20 +30,45 @@ function Header({ onSignIn }) {
                                     <h2>
                                         <a href='/coffee/index.do' class>COFFEE</a>
                                     </h2>
-                                    <div className='gnb_sub_wrap'>
-                                        <div className='gnb_sub'>
-                                            <div className='gnb_sub_inner'>
-                                                <ul>
-                                                    <li className='gnb_sun_ttl'>
-                                                        <a href='/coffee/product_list.do'>커피</a>
-                                                    </li>
-                                                </ul>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
                                 </li>
+
+                                <li className='gnb_nav02'>
+                                    <h2>
+                                        <a href='/menu/index.do' class>MENU</a>
+                                    </h2>
+                                </li>
+
+                                <li className='gnb_nav03'>
+                                    <h2>
+                                        <a href='/store/index.do' class>STORE</a>
+                                    </h2>
+                                </li>
+
+                                <li className='gnb_nav04'>
+                                    <h2>
+                                        <a href='/responsibility/index.do' class>RESPONSIBILITY</a>
+                                    </h2>
+                                </li>
+
+                                <li className='gnb_nav05'>
+                                    <h2>
+                                        <a href='/msr/index.do' class>STARBUCKS REWARDS</a>
+                                    </h2>
+                                </li>
+
+                                <li className='gnb_nav06'>
+                                    <h2>
+                                        <a href="/footer/co_sales/index.do" class="">CORPORATE SALES</a>
+                                    </h2>
+                                </li>
+
+                                <li className='gnb_nav07'>
+                                    <h2>
+                                        <a href="/whats_new/index.do" class="">WHAT'S NEW</a>
+                                    </h2>
+                                </li>
+
+
                             </ul>
 
                         </div>
