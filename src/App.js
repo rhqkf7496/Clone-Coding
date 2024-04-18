@@ -7,9 +7,11 @@ import Signin from './components/Signin';
 import Customer from './components/Customer';
 import FindStore from './components/FindStore';
 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 function App() {
-  const [isSignedIn, setIsSignedIn] = useState(false);
+  /* const [isSignedIn, setIsSignedIn] = useState(false);
   const [isCustomer, setCustomer] = useState(false);
   const [isStore, setStore] = useState(false);
 
@@ -41,17 +43,29 @@ function App() {
     pageToRender = <FindStore />;
   } else {
     pageToRender = <Content />;
-  }
+  } */
 
 
   return (
-    <div className='app'>
+
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Content />} />
+        <Route path="/signIn" element={<Signin />} />
+        <Route path="/customer" element={<Customer />} />
+        <Route path="/findstore" element={<FindStore />} />
+      </Routes>
+      <Footer />
+    </Router>
+
+  /*   <div className='app'>
 
       <Header onCustomer={goToCustomerPage} onSignIn={goToSignInPage} onFindStore={goToFindStorePage} />
       {pageToRender}
       <Footer />
 
-    </div>
+    </div> */
   );
 }
 
