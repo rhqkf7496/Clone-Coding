@@ -22,7 +22,7 @@ function Header() {
                             </ul>
                         </nav>
                         <p class="btn_search">
-                            <a href="javascript:void(0);"><img alt="통합검색" src="//image.istarbucks.co.kr/common/img/common/icon_magnifier_black.png" /></a>
+                            <a href="javascript:void(0);"><img alt="통합검색" src="//image.istarbucks.co.kr/common/img/common/icon_magnifier_black.png" className='searchButton'/></a>
                             <label for="totalSearch" class="a11y">통합검색</label><input id="totalSearch" placeholder="통합검색" type="text" /></p>
                     </div>
                     <nav className='sub_gnb_nav'>
@@ -30,7 +30,7 @@ function Header() {
                             <ul>
                                 <li className='gnb_nav01'>
                                     <h2>
-                                        <a href='/coffee/index.do' class>COFFEE</a>
+                                        <Link to="/coffee" class>COFFEE</Link>
                                     </h2>
                                     <div class="gnb_sub_wrap">
                                         <div class="gnb_sub">

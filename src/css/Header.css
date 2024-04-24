@@ -289,6 +289,12 @@ div {
   background: transparent;
 }
 
+.searchButton {
+  right: 7px;
+  top: 6px;
+  position: absolute;
+}
+
 a {
   margin: 0;
   padding: 0;
@@ -400,3 +406,6 @@ h2 {
   line-height: 20px;
   padding-top: 10px;
 }
+
+
+
