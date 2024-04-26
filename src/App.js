@@ -10,40 +10,6 @@ import FindStore from './components/FindStore';
 import Coffee from './components/Coffee';
 
 function App() {
-  /* const [isSignedIn, setIsSignedIn] = useState(false);
-  const [isCustomer, setCustomer] = useState(false);
-  const [isStore, setStore] = useState(false);
-
-  const goToCustomerPage = () => {
-    setCustomer(true);
-    setIsSignedIn(false);
-    setStore(false);
-  };
-
-  const goToSignInPage = () => {
-    setIsSignedIn(true);
-    setCustomer(false);
-    setStore(false);
-  };
-
-  const goToFindStorePage = () => {
-    setStore(true);
-    setIsSignedIn(false);
-    setCustomer(false);
-  };
-
-  let pageToRender;
-
-  if (isCustomer) {
-    pageToRender = <Customer />;
-  } else if (isSignedIn) {
-    pageToRender = <Signin />;
-  } else if (isStore) {
-    pageToRender = <FindStore />;
-  } else {
-    pageToRender = <Content />;
-  } */
-
 
   return (
 
@@ -59,13 +25,6 @@ function App() {
       <Footer />
     </Router>
 
-  /*   <div className='app'>
-
-      <Header onCustomer={goToCustomerPage} onSignIn={goToSignInPage} onFindStore={goToFindStorePage} />
-      {pageToRender}
-      <Footer />
-
-    </div> */
   );
 }
 
