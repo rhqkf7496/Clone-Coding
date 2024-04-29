@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/Customer.css';
 
+import { Link } from 'react-router-dom';
+
 function Customer() {
     return (
         <div id='container'>
@@ -71,7 +73,7 @@ function Customer() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <a class="btn_login" href="javascript:$.loginLib.showLayerLogin();">로그인</a>
+                                            <Link to="/signIn" class="btn_login" href="javascript:$.loginLib.showLayerLogin();">로그인</Link>
                                         </div>
                                     </div>
                                 </div>
